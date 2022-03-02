@@ -6,4 +6,12 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
-
+footer {
+  text-align: center;
+  margin-top: 250px;
+  color : #A9A9A9;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+}
