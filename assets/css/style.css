@@ -12,6 +12,14 @@ body {
   width: 100vw;
 }
 
+header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: .875em 0;
+  width: 100vw;
+}
+
 footer {
   text-align: center;
   margin-top: 250px;
