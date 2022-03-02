@@ -6,6 +6,12 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+.container {
+  height: 100vh;
+  padding: 0 0.8em;
+  width: 100vw;
+}
+
 footer {
   text-align: center;
   margin-top: 250px;
