@@ -20,6 +20,13 @@ header {
   width: 100vw;
 }
 
+.title {
+  font-family: 'Lora', sans-serif;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 46px;
+  min-width: 278px;
+}
 footer {
   text-align: center;
   margin-top: 250px;
