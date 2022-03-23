@@ -50,6 +50,8 @@ main p {
   line-height: 16px;
   text-transform: uppercase;
   height: 2rem;
+  width: 10em;
+  cursor: pointer;
 }
 
 .alternative {
