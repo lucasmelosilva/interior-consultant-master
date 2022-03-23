@@ -67,6 +67,16 @@ main p {
   margin-left: .5em;
 }
 
+.overview-design {
+  margin-top: 20px;
+  position: relative;
+}
+
+.overview-design img {
+  width: 152px;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
 footer {
   text-align: center;
   margin-top: 250px;
