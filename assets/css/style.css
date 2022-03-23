@@ -127,6 +127,42 @@ main p {
   margin: 0;
 }
 
+.menu-list {
+  align-items: center;
+  background: #181719;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  left: -99999;
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  z-index: 1;
+}
+
+.menu-list_item {
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  margin-bottom: 35px;
+  padding: 10px;
+  transition: all .08s;
+}
+
+.active {
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-thickness: 2.5px;
+  text-underline-offset: 1em;
+}
+
+.menu-list_item:hover {
+  font-weight: 700;
+}
+
+
 footer {
   text-align: center;
   margin-top: 12em;
