@@ -10,6 +10,9 @@ body {
   height: 100vh;
   width: 93%;
   margin: auto;
+
+  display: flex;
+  flex-direction: column;
 }
 
 header {
@@ -81,7 +84,7 @@ header {
   min-width: 278px;
 }
 
-main p {
+.content p {
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
   line-height: 17px;
@@ -131,7 +134,7 @@ main p {
 
 .designer {
   background: #181719;
-  max-width: 275px;
+  max-width: 82%;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   padding: 1em 1.5em 1.5em 2em;
   position: absolute;
@@ -182,7 +185,8 @@ main p {
 
 footer {
   text-align: center;
-  margin-top: 12em;
+  margin-top: 13em;
+  margin-bottom: 2em;
   color: #a9a9a9;
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
